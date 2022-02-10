@@ -1,4 +1,4 @@
- LetterT()
+LetterT()
 LetterX()
 LetterH()
 DownedLine()
@@ -10,6 +10,7 @@ Cube()
 D4()
 AngleTriangle()
 Chlen()
+
 
 function LetterT()
 {
@@ -142,7 +143,6 @@ function Cross()
     
     cnv.moveTo(CrossXArr, CrossYArr + 30) //ПОЧЕМУ БЛЯЯЯЯЯТЬ ВТФФФФФЛОЦУФАИОЛЙФВОДЙУЫАОЙУЛФВЦ
     cnv.lineTo(CrossXArr, CrossYArr - 30)
-    cnv.strokeStyle = "red"
     cnv.stroke()
 
     cnv.moveTo(CrossXArr + 30, CrossYArr)
@@ -249,7 +249,7 @@ function SideTriangle()
     cnv.lineTo(50 + Katet, 550)
 
     cnv.moveTo(50 + Katet, 550)
-    cnv.lineTo(50 + Katet, 550 - Katet1)
+    cnv.lineTo(50 + Katet, 550 - Katet1)    
 
     cnv.moveTo(50, 550)
     cnv.lineTo(50 + Katet, 550 - Katet1)
